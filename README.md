@@ -58,7 +58,7 @@ The goal of this project is to display a dynamic first-person view of a player, 
 
 ## Approach
 ###### <p align="right">Next: [Prerequisites](#prerequisites)&emsp;Previous: [Introduction](#introduction)&emsp;&emsp;[[Contents](#table-of-contents)]</p>
-In this chapter we will explain the approach we took, to solve the task.
+In the beginning, we split up the project into two different aspects. First of all, parsing the config file, checking it's validity and defining the layout of the map. Second, working ourselves into the concept of ray-casting and building up the 3D rendered version of the map. Lastly, we then added sprites for the player and some of the bonus and extra features.
 
 ## Prerequisites
 ###### <p align="right">Next: [How to launch](#how-to-launch)&emsp;Previous: [Approach](#approach)&emsp;&emsp;[[Contents](#table-of-contents)]</p>
@@ -129,9 +129,9 @@ _Screenshot_
 ###### <p align="right">Next: [Notes](#notes)&emsp;Previous: [Example](#example)&emsp;&emsp;[[Contents](#table-of-contents)]</p>
 [MiniLibX documentation](https://harm-smits.github.io/42docs/libs/minilibx) made by [hsmits](https://github.com/harm-smits) and jvan-sni.
 
-To get started with ray-casting you cound watch [3DSage](https://www.youtube.com/c/3DSage)'s video series ["Make Your Own Raycaster" Part 1-3](https://www.youtube.com/watch?v=gYRrGTC7GtA), however it uses a very basic implementation, which leads to minor issues as you progress. Therefore it is not recommended to base your project on it. A more in-depth guide would be [Lode's Computer Graphics Tutorial - Raycasting](https://lodev.org/cgtutor/raycasting.html).
+To get started with ray-casting you could watch [3DSage](https://www.youtube.com/c/3DSage)'s video series ["Make Your Own Raycaster" Part 1-3](https://www.youtube.com/watch?v=gYRrGTC7GtA), however it uses a very basic implementation, which leads to minor issues as you progress. Therefore it is not recommended to base your project on it. A more in-depth guide would be [Lode's Computer Graphics Tutorial - Raycasting](https://lodev.org/cgtutor/raycasting.html).
 
-For linux the [modified MinilibX Linux](https://github.com/Rush-iam/nGragasstein3D-cub3D/tree/master/minilibx_linux), where some issues with transperancy got fixed by [Rush-iam](https://github.com/Rush-iam) is used. 
+For linux the [modified MinilibX Linux](https://github.com/Rush-iam/nGragasstein3D-cub3D/tree/master/minilibx_linux), where some issues with transparency got fixed by [Rush-iam](https://github.com/Rush-iam), is used. 
 
 Textures and Images:<br/>
 https://www.pexels.com<br/>
